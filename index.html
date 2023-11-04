@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algoritmo di ricerca</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Find jobs</h1>
+      </div>
+      <div class="inputs">
+        Title:
+        <input id="title" type="text" />
+        Location:
+        <input id="location" type="text" />
+      </div>
+      <button id="searchButton">Search</button>
+      <div class="resultsContainer">
+        <div id="counter"></div>
+        <div class="listContainer">
+          <div class="titleContainer">
+            <h2></h2>
+            <ol class="title list"><ol>
+          </div>
+          <div class="locationContainer">
+            <h2></h2>
+            <ol class="location list"><ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
